@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <windows.h>
 
 #define MAP_WIDTH 32
 #define MAP_HEIGHT 16
 
-boolean game_status = TRUE;
+int game_status = 1;
 
 typedef enum {
     entity_type_empty = 0,
